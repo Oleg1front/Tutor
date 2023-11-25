@@ -4,6 +4,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .obgortka {
   background: #fff;
   display: flex;
@@ -124,8 +134,8 @@ body {
   line-height: 24px;
 }
 .my-info {
-  padding-bottom: 40px;
   box-sizing: border-box;
+  margin-bottom: 40px ;
 }
 
 /* my projects */
@@ -148,6 +158,7 @@ body {
 
 .my-projects-list {
   padding-left: 16px;
+  padding-bottom: 40px;
 }
 
 .my-projects-item-link {
@@ -157,4 +168,174 @@ body {
   line-height: 24px;
   text-decoration-line: underline;
   margin-left: 14.1px;
+}
+
+.my-projects-item-tech{
+    color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.workexp {
+    color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+/* Work 1 styles */
+.work1{
+    color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px; 
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.work1date{
+    color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+}
+.work1separator{
+    color: #000;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+}
+
+.work1duty {
+padding-left: 16px;
+}
+
+.work1duty-list{
+    color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* work 2 styles */
+
+.work2{
+    color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.work2free{
+    color: #6D9BF5;
+}
+
+.work2date{
+    color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+
+.work2separator{
+    color: #000;
+}
+
+.work2duty{
+    padding-left: 16px;
+}
+
+.work2duty-item{
+    color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.work3{
+    color: #000;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.work3best{
+    color: #6D9BF5;
+}
+
+.work3date{
+    color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+
+.work3separator{
+    color: #000;
+}
+
+.work3duty{
+    padding-left: 16px;
+}
+
+.work3duty-item{
+    color: #595959;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.education{
+    color: #000;
+font-size: 22px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+.education-place{
+    color: #6D9BF5;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+margin-top: 0;
+margin-bottom: 8px;
+}
+
+.education-type{
+    color: #000;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+}
+
+.education-date {
+    color: #A8A8A8;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+
+.date-separator{
+    color: #000;
+}
+
+.work1place {
+    margin-bottom: 12px;
+}
+
+.work2place{
+    margin-bottom: 12px;
+}
+
+.work3place {
+    margin-bottom: 40px;
 }
